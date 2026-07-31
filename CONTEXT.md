@@ -28,10 +28,6 @@ _Avoid_: Full quality gate, test suite, release check
 A local entry point for an important subtree that needs an index, rules, or conventions to stay readable and maintainable. It is not required for simple directories whose contained files are self-explanatory.
 _Avoid_: Mandatory folder README, blanket directory index
 
-**Agent Environment**:
-A lightweight command wrapper that keeps agent and tool cache writes inside the workspace. It may include narrowly justified tool cache variables, but it is not a general language-tool preset.
-_Avoid_: Full development environment, language toolchain setup, universal cache config
-
 **Architecture Decision Record**:
 A numbered note for decisions that are hard to reverse, surprising without context, and based on a real tradeoff. It records why the decision exists without turning routine implementation choices into process overhead.
 _Avoid_: Routine design note, dated decision log, implementation diary

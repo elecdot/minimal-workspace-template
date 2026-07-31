@@ -17,10 +17,6 @@ doctor:
 # Run the base local gate.
 check: doctor
 
-# Run with workspace-local caches.
-agent *args:
-    @./scripts/agent-env.sh {{args}}
-
 # Configure a formatter.
 fmt:
     @printf 'No formatter configured yet.\n' >&2

@@ -52,7 +52,6 @@ Prefer repository commands over ad hoc long commands:
 ```bash
 just doctor       # show workspace status and recipes
 just check        # run the base local gate
-just agent <cmd>  # run a command with workspace-local caches
 ```
 
 The base template intentionally does not configure formatters, linters, tests, CI, docs sites, or language-specific dependencies. Add those only when the repository needs them, then promote the recurring command into `justfile`.

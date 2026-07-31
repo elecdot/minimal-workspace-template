@@ -19,9 +19,6 @@ point, index, rules, or conventions to stay readable and maintainable.
 - Treat `justfile` as the main command interface.
 - Add recurring commands to `justfile` and document them briefly.
 - Extract complex or multi-step workflow logic into dedicated helper scripts.
-- Use `scripts/agent-env.sh` when a command may write cache or local tool 
-state.
-- Temporary tool caches may live under `.cache/`; do not commit them.
 
 ## Engineering Principles
 
